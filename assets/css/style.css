@@ -151,6 +151,71 @@ span {
     padding: 0 8px;
 }
 
+.sec-small{
+    font-size: 20px;
+    color: #EC1D77;
+}
+
+.page-title{
+    font-size: 48px;
+    line-height: 130%;
+}
+
+.sec-title{
+    line-height: 125%;
+    font-size: 44px;
+}
+
+.s2-desc{
+    font-size: 20px;
+}
+
+.s2-ellipse{
+    position: absolute;
+    height: 95px;
+    top: 0;
+    right: 40px;
+    transform: translateY(-70px);
+}
+
+.s2-img{
+    max-width: 500px;
+}
+.sec-3{
+    background-color: rgba(236, 29, 119, 0.05);
+}
+.fw-extrabold{
+    font-weight: 800;
+}
+.sb-img{
+    border-radius: 20px;
+    height: 375px;
+    width: 360px;
+    overflow: hidden;
+}
+.sb-content{
+    border-radius: 20px;
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    min-height: 62.5%;
+    background-image: linear-gradient(to bottom,rgba(34, 34, 34, 0.0001), rgba(34, 34, 34, 1));
+}
+
+.sb-title{
+    margin-bottom: 2px;
+    font-size: 24px;
+}
+
+.sb-text{
+    font-size: 12px;
+}
+
+.services-flex{
+    gap: 60px;
+}
 @media (min-width: 1200px) {
     .hh-img {
         height: auto;
@@ -198,6 +263,12 @@ span {
 }
 
 @media (max-width: 992px) {
+
+    .s2-ellipse{
+        height: 62px;
+        right: 30px;
+        transform: translateY(-20px);
+    }
     .hh-content {
         position: relative;
         transform: unset;
@@ -233,6 +304,15 @@ span {
 
     .bl-img {
         height: 38px !important;
+    }
+
+    .page-title,.sec-title{
+        font-size: 30px;
+        line-height: 130%;
+    }
+    
+    .s2-desc{
+        font-size: 18px;
     }
 }
 
